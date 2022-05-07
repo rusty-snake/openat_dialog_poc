@@ -1,0 +1,8 @@
+[package]
+name = "openat_dialog_poc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+libseccomp = { git = "https://github.com/libseccomp-rs/libseccomp-rs.git", rev = "4ae91b5" }
